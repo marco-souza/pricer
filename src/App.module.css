@@ -1,15 +1,13 @@
 .App {
   text-align: center;
-}
+  cursor: grab;
+  background-color: #282c34;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
-.logo {
-  animation: logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,14 +17,11 @@
   color: white;
 }
 
-.link {
-  color: #b318f0;
-}
-
-@keyframes logo-spin {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
