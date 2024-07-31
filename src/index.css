@@ -4,8 +4,8 @@
   --typography-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  --color-blue-1: #007bff99;
-  --spacing-1: 4rem;
+  --color-blue-1: #007bff;
+  --spacing-1: 1rem;
 }
 
 #ext-body {
